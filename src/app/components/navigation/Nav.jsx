@@ -26,7 +26,7 @@ export default function Nav() {
                     </div>
 
                     <div className="flex items-center justify-center gap-2" >
-                        <div className="md:hidde block">
+                        <div className="md:hidden block">
                             <MdApps className="text-3xl  text-gray-950 cursor-pointer hover:text-green-600 duration-300 dark:text-gray-50" />
                         </div>
                         <div className="menu-icon hidden  md:block">
