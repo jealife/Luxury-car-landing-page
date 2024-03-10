@@ -15,10 +15,10 @@ export default function Nav() {
 
                     <div className="logo">
                         <Link href="/">
-                            <span className="uppercase font-bold text-gray-950 dark:text-gray-50">Lim<span className="text-green-600">o</span>S</span>
+                            <span className="uppercase font-bold text-gray-800 ">Lim<span className="text-green-600">o</span>S</span>
                         </Link>
                     </div>
-                    <div className="menu flex items-center gap-8 sm:hidden  text-gray-900 dark:text-gray-50">
+                    <div className="menu flex items-center gap-8 sm:hidden  text-gray-800 dark:text-gray-50">
                         <Link href="/" className={`link hover:text-green-600 duration-300 ${pathname === '/' ? 'active' : ''}`} >Home</Link>
                         <Link href="/patisserie" className={`link hover:text-green-600 duration-300 ${pathname === '/patisserie' ? 'active' : ''}`}>Vehicules</Link>
                         <Link href="/programme" className={`link hover:text-green-600 duration-300 ${pathname === '/programme' ? 'active' : ''}`}>Blog</Link>
@@ -27,7 +27,7 @@ export default function Nav() {
 
                     <div className="flex items-center justify-center gap-2" >
                         <div className="md:hidden block">
-                            <MdApps className="text-3xl  text-gray-950 cursor-pointer hover:text-green-600 duration-300 dark:text-gray-50" />
+                            <MdApps className="text-3xl  text-gray-800 cursor-pointer hover:text-green-600 duration-300 " />
                         </div>
                         <div className="menu-icon hidden  md:block">
 
