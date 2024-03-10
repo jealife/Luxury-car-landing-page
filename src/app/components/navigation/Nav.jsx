@@ -15,7 +15,7 @@ export default function Nav() {
 
                     <div className="logo">
                         <Link href="/">
-                            <span className="uppercase font-bold text-gray-950">Lim<span className="text-green-600">o</span>S</span>
+                            <span className="uppercase font-bold text-gray-950 dark:text-gray-50">Lim<span className="text-green-600">o</span>S</span>
                         </Link>
                     </div>
                     <div className="menu flex items-center gap-8 sm:hidden  text-gray-900 dark:text-gray-50">
