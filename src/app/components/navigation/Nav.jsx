@@ -18,17 +18,17 @@ export default function Nav() {
                             <span className="uppercase font-bold text-gray-950">Lim<span className="text-green-600">o</span>S</span>
                         </Link>
                     </div>
-                    <div className="menu flex items-center gap-8 sm:hidden  text-gray-900">
+                    <div className="menu flex items-center gap-8 sm:hidden  text-gray-900 dark:text-gray-50">
                         <Link href="/" className={`link hover:text-green-600 duration-300 ${pathname === '/' ? 'active' : ''}`} >Home</Link>
                         <Link href="/patisserie" className={`link hover:text-green-600 duration-300 ${pathname === '/patisserie' ? 'active' : ''}`}>Vehicules</Link>
                         <Link href="/programme" className={`link hover:text-green-600 duration-300 ${pathname === '/programme' ? 'active' : ''}`}>Blog</Link>
                         <Link href="/reconnect.me" className={`link hover:text-green-600 duration-300 ${pathname === '/reconnect.me' ? 'active' : ''}`}>Contact</Link>
                     </div>
                     <div>
-                        <MdApps className="text-3xl text-gray-950 cursor-pointer hover:text-green-600 duration-300" />
+                        <MdApps className="text-3xl text-gray-950 cursor-pointer hover:text-green-600 duration-300 dark:text-gray-50" />
                     </div>
                     <div className="menu-icon hidden  md:block" >
-                        <svg onClick={() => setOpen(!open)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="black" className="w-8 h-8 cursor-pointer">
+                        <svg onClick={() => setOpen(!open)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="black" className="w-8 h-8 cursor-pointer dark:text-gray-50">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
                         </svg>
                     </div>
