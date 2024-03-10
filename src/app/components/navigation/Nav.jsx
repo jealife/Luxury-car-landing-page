@@ -31,7 +31,7 @@ export default function Nav() {
                         </div>
                         <div className="menu-icon hidden  md:block">
 
-                        <MdApps onClick={() => setOpen(!open)} className="text-3xl text-gray-950 cursor-pointer hover:text-green-600 duration-300 dark:text-gray-50" />
+                        <MdApps onClick={() => setOpen(!open)} className="text-3xl text-gray-950 cursor-pointer hover:text-green-600 duration-300 " />
                         </div>
                     </div>
                 </div>
