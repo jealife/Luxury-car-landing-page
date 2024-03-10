@@ -25,7 +25,7 @@ export default function Nav() {
                         <Link href="/reconnect.me" className={`link hover:text-green-600 duration-300 ${pathname === '/reconnect.me' ? 'active' : ''}`}>Contact</Link>
                     </div>
 
-                    <div  >
+                    <div className="flex gap-2" >
                         <div>
                             <MdApps className="text-3xl text-gray-950 cursor-pointer hover:text-green-600 duration-300 dark:text-gray-50" />
                         </div>
