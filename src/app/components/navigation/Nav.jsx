@@ -26,14 +26,12 @@ export default function Nav() {
                     </div>
 
                     <div className="flex items-center justify-center gap-2" >
-                        <div>
-                            <MdApps className="text-3xl text-gray-950 cursor-pointer hover:text-green-600 duration-300 dark:text-gray-50" />
+                        <div className="md:hidde block">
+                            <MdApps className="text-3xl  text-gray-950 cursor-pointer hover:text-green-600 duration-300 dark:text-gray-50" />
                         </div>
                         <div className="menu-icon hidden  md:block">
 
-                            <svg onClick={() => setOpen(!open)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="black" className="w-8 h-8 cursor-pointer dark:text-gray-50">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                            </svg>
+                        <MdApps onClick={() => setOpen(!open)} className="text-3xl text-gray-950 cursor-pointer hover:text-green-600 duration-300 dark:text-gray-50" />
                         </div>
                     </div>
                 </div>
