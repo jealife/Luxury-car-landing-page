@@ -10,8 +10,8 @@ export default function Nav() {
     const pathname = usePathname()
     return (
         <>
-            <nav className='text-slate-50 relative flex justify-center items-center p-5 w-full gap-4  '>
-                <div className="w-full max-w-7xl flex justify-between items-center">
+            <nav className='text-slate-50  flex justify-center items-center p-5 w-full gap-4 fixed top-0 '>
+                <div className="w-full max-w-7xl flex justify-between items-center relative">
 
                     <div className="logo">
                         <Link href="/">
