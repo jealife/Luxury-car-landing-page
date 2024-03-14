@@ -6,7 +6,7 @@ export default function HeroSection() {
      <h1 className='text-slate-50  capitalize text-7xl text-center font-bold'>Luxury limo hire</h1>
      <p className='text-center text-slate-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate?</p>
      <a href="#" className="text-slate-50 bg-black rounded-md py-2 px-3 capitalize " >Open fleet</a>
-     <div className="form w-full flex justify-end mt-10">
+     <div className="form w-full flex justify-end mt-10 sm:justify-center items-center">
       <div  className="p-5 bg-white rounded-lg h-60 flex-[1/2] w-60 " >
       </div>
      </div>
